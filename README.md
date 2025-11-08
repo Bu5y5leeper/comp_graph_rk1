@@ -1,7 +1,7 @@
 ### Результат
 
-![result](kg.png)
+![result](result.png)
 
 
 ### Вставляемое изображение
-![texture](result.png)
+![texture](texture.png)

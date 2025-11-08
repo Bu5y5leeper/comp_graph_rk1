@@ -261,7 +261,7 @@ def fill_texture_outside_circle(img, intersect, texture_obj, circle_dot, radius)
 
 
 def texture_fill(sides, polygon, circle_center, rad):
-    texture = Image.open("result.png").convert("RGB")
+    texture = Image.open("texture.png").convert("RGB")
 
     for y in range(min(p[1] for p in polygon), max(p[1] for p in polygon)):
         intersect_array = get_intersect_array(sides, y)
